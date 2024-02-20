@@ -1,0 +1,31 @@
+{
+  "name": "vue-wrapper",
+  "version": "0.1.0",
+  "description": "Vue Wrapper for OTA Framework Web Components with Stencil",
+  "author": "ASIM YILDIZ <muhammed.yildiz@emirates.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "npm run tsc",
+    "tsc": "tsc -p . --outDir ./dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "core-library": "*"
+  },
+  "devDependencies": {
+    "vue": "^3.4.19"
+  }
+}
